@@ -1,9 +1,13 @@
 clc;
 clear all;
 
-a = 1;
+a = 22.5;
 b = 3-6;
 
 c = a+b;
 
-fprintf('The result of the sum is %d\n',c);
+d = sin(c);
+
+floorA = floor(a);
+
+fprintf('The result is %d\n',floorA);
